@@ -38,7 +38,7 @@
             
         <div class="box main">
             <h2>Welcome</h2>
-            
+             <!-- date of birth picker to use later -->
                    <label>
     Date of birth:
     <input type="date" name="bday" min="1900-01-01" max="2000-01-01">
