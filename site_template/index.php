@@ -28,7 +28,7 @@
     
         <!-- logo / small image goes here -->
         <div class="box logo">
-            <a href="index.php"><img src="images/logo.png" width="261" height="150" alt="Dice" /></a>
+            <a href="index.php"><img src="images/logo.png" width="261" height="150" alt="Trophy" /></a>
         </div> <!-- / logo -->
         
         <div class="box banner">
@@ -38,12 +38,16 @@
             
         <div class="box main">
             <h2>Welcome</h2>
-             <!-- date of birth picker to use later -->
-                   <label>
-    Date of birth:
-    <input type="number" name="bday" min="1900" max="2000">
-  </label>            
-
+            
+            <p>This database includes information about the Nobel Prize winners since the early 1900s.  </p>     
+            
+            <h2>Acknowledgemnts & Sources</h2>
+            <ul>
+                <li><a href="https://www.nobelprize.org/prizes/lists/all-nobel-prizes">https://www.nobelprize.org/prizes/lists/all-nobel-prizes</a></li>
+                
+                <li></li>              
+            
+            </ul>
             
         </div> <!-- / main -->
         

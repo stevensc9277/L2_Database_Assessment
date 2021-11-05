@@ -45,11 +45,11 @@ body {
 
 /* make logo and banner the same colour */
 .logo, .main {
-    background-color: #dfcfbc;  /* beige */
+    background-color: #89CFF0;  /* true blue */
 }
 
 .banner, .side {
-    background-color: #d6d3d7; /* blue grey */
+    background-color: #faf0be; /* blond */
 }
 
 

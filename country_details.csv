@@ -1,68 +1,68 @@
-﻿Country,CountryID
-Algeria,1
-Argentina,2
-Australia,3
-Austria,4
-Belarus,5
-Belgium,6
-Bulgaria,7
-Burma,8
-Canada,9
-Chile,10
-China,11
-Colombia,12
-Costa Rica,13
-Czechoslovakia,14
-Denmark,15
-East Timor,16
-Egypt,17
-Finland,18
-France,19
-Germany,20
-Germany (now Poland),21
-Ghana,22
-Great Britain,23
-Greece,24
-Guatemala,25
-Hungary,26
-Iceland,27
-India,28
-International,29
-Iran,30
-Ireland,31
-Israel,32
-Italy,33
-Japan,34
-Kenya,35
-Kingdom,36
-Korea,37
-Liberia,38
-Lithuania,39
-Macedonia,40
-Madagascar,41
-Mexico,42
-Nigeria,43
-Norway,44
-Pakistan,45
-Peru,46
-Poland,47
-Portugal,48
-Republic,49
-Romania,50
-Russia,51
-Saint Lucia,52
-Scotland,53
-South Africa,54
-Spain,55
-Sweden,56
-Switzerland,57
-the Netherlands,58
-Tibet,59
-Trinidad,60
-Turkey,61
-Ukraine,62
-United Kingdom,63
-USA,64
-USSR,65
-Vietnam,66
-Yemen,67
+﻿CountryID,Country
+1,Algeria
+2,Argentina
+3,Australia
+4,Austria
+5,Belarus
+6,Belgium
+7,Bulgaria
+8,Burma
+9,Canada
+10,Chile
+11,China
+12,Colombia
+13,Costa Rica
+14,Czechoslovakia
+15,Denmark
+16,East Timor
+17,Egypt
+18,Finland
+19,France
+20,Germany
+21,Germany (now Poland)
+22,Ghana
+23,Great Britain
+24,Greece
+25,Guatemala
+26,Hungary
+27,Iceland
+28,India
+29,International
+30,Iran
+31,Ireland
+32,Israel
+33,Italy
+34,Japan
+35,Kenya
+36,Kingdom
+37,Korea
+38,Liberia
+39,Lithuania
+40,Macedonia
+41,Madagascar
+42,Mexico
+43,Nigeria
+44,Norway
+45,Pakistan
+46,Peru
+47,Poland
+48,Portugal
+49,Republic
+50,Romania
+51,Russia
+52,Saint Lucia
+53,Scotland
+54,South Africa
+55,Spain
+56,Sweden
+57,Switzerland
+58,the Netherlands
+59,Tibet
+60,Trinidad
+61,Turkey
+62,Ukraine
+63,United Kingdom
+64,USA
+65,USSR
+66,Vietnam
+67,Yemen

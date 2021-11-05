@@ -1,7 +1,7 @@
-﻿Category,CategoryID
-chemistry,1
-economics,2
-literature,3
-medicine,4
-peace,5
-physics,6
+﻿CategoryID,Category
+1,chemistry
+2,economics
+3,literature
+4,medicine
+5,peace
+6,physics
