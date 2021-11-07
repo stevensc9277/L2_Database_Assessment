@@ -109,9 +109,9 @@ h1, h2, h3, h4 {
 
 /* links in page */
 
-a:link{color: #d6d3d7;}
-a:visited{color: #ccc;}
-a:hover{color: #dfcfbc;}
+a:link{color: #4F7942;}
+a:visited{color: #D0312D;} /* red */
+a:hover{color: #4F7942;}  /* fern green */
 
 /* side links */
 a.side {
@@ -141,7 +141,42 @@ a.side:hover {color:#8a1737; }
     padding: 20px;
     }
 
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
+/* Side form formatting */
+.searchform {
+    width: 250px;
+    margin: 5px;
+}
+
+.search {
+    padding:8px 15px;
+    background:#fff;
+    border:0px solid #dbdbdb;
+    width: 200px;
+}
+
+.submit {
+    font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 40px;
+    left: -1px;
+    background-color: #636263;
+    color: #d6d3d7;
+    border: 1px solid #636263;
+    border-radius: 0 5px 5px 0;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
 
 
 
