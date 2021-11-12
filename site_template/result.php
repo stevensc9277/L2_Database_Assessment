@@ -27,76 +27,45 @@
                 <div class = "flex-container">
                     <div>
                 <span class="sub_heading">
-                <a href="<?php echo $find_rs['Firstname']; ?>"><?php echo $find_rs['Name']; ?></a>
+                <?php echo $find_rs['Firstname']; echo $find_rs['Surname']; ?>
                 </span>
-                    </div> <!-- /title -->
+                    </div> <!-- /Name -->
                     
-                    <?php
-                    if($find_rs['Subtitle'] != "")
-                        
-                    {
-                    
-                    ?>
-                <div>
-                    
-                    &nbsp; &nbsp; | &nbsp; &nbsp;
-                    <?php echo $find_rs['Subtitle'] ?>
-                    
-                </div> <!-- /subtitle -->
-                <?php
-                        
-                    }
-                    
-                    ?>
                     
                 </div>
                 
                     
-                    <!-- Ratings area -->
-                <div class="flex-container">
-                    <!-- Partial Stars Original Source: https://codepen.io/Bluetidepro/pen/GkpEa -->
-                    <div class="star-ratings-sprite"><span style="width:<?php echo $find_rs['User Rating'] / 5 * 100; ?>%" class="star-ratings-sprite-rating"></span></div> <!-- /star rating div -->
-                    
-                    <div class="actual-rating">
-                    (<?php echo $find_rs['User Rating']?> based on <?php echo number_format($find_rs['Rating Count']) ?> ratings)
-                    </div> <!-- /text rating div -->
                       
                     
-                </div><!-- /Ratings area -->    
+                
                     
                 <!-- Price -->
                     
-                    <?php if($find_rs['Price'] == 0){
+                    <?php if($find_rs['Gender'] == 0){
                         ?>
-                    <p>
-                        Free!
-                        <?php if($find_rs['In App'] == 1){
-                            ?>
-                        (In App Purchase)
-                        <?php
-                        } // end in app if
-                        ?>
-                        
-                    </p>
+                        <b>Gender: </b><?php echo 'Female'; ?>
+                                        
+                    
                     <?php
-                    } // end price if
+                    } // end gender if
                     else{
                         ?>
-                    <b>Price:</b> $<?php echo $find_rs['Price'] ?>
+                    <b>Gender:</b> <?php echo 'Male'; ?>
                 <?php
-                    } //end price else
+                    } //end gender else
                     
                     
                     ?>
-            <!-- / Price -->
+            <!-- / Gender -->
                 <p>
-                    <!--Developer, Genre and Age... -->
-                    <b>Developer:</b> <?php echo $find_rs['DevName'] ?> <br />
-                    <b>Genre:</b> <?php echo $find_rs['Genre'] ?><br/>
-                    Suitable for ages <b><?php echo $find_rs['Age'] ?></b> and up
+                    <!--Date of birth, recieved date, category... -->
+                    <b>Date of Birth: </b> <?php echo $find_rs['Born'] ?> <br />
+                    <b>Affiliation / City / Country: </b> <?php echo $find_rs['Affiliation'] ?>, <?php echo $find_rs['City'] ?>, <?php echo $find_rs['Country'] ?> <br />
+                    <b>Recieved award in: </b> <?php echo $find_rs['Year'] ?><br/>
+                    <b>Category: </b><?php echo $find_rs['Category'] ?>
                 </p>
                 <p>
-                    <i><?php echo $find_rs['Description']; ?></i>
+                    <b>Motivation: </b><i><?php echo $find_rs['Motivation']; ?></i>
                 </p>
             </div> <!-- /results -->
             <br/>
