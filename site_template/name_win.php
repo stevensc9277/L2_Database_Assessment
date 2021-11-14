@@ -5,7 +5,7 @@
     $find_sql = "SELECT * FROM `laureate_details` 
     JOIN category ON (laureate_details.CategoryID = category.CategoryID)
     JOIN country ON (laureate_details.CountryID = country.CountryID) 
-    WHERE `Firstname` LIKE '%$name_win%' OR `Country` LIKE '%$name_win%'
+    WHERE `Firstname` LIKE '%$name_win%' OR `Surname` LIKE '%$name_win%' OR `Country` LIKE '%$name_win%'
     
     ";
     $find_query = mysqli_query($dbconnect, $find_sql);
@@ -15,7 +15,7 @@
 ?>            
 
         <div class="box main">
-            <h2>Name Results</h2>
+            <h2>Search Results</h2>
             
             <?php 
             include ("result.php"); 
