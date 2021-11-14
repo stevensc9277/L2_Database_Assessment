@@ -42,7 +42,7 @@
     
         <!-- logo / small image goes here -->
         <div class="box logo">
-            <a href="index.php"><img src="images/logo.png" width="261" height="150" alt="Trophy" /></a>
+            <a href="index.php"><img src="images/logo.png" width="200" height="150" alt="coin" class="center"/></a>
         </div> <!-- / logo -->
         
         <div class="box banner">
