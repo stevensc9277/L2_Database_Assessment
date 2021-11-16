@@ -32,14 +32,10 @@
                     </div> <!-- /Name -->
                     
                     
-                </div>
+                </div>     
                 
-                    
-                      
-                    
-                
-                    
-                <!-- Price -->
+                <p>
+                    <!-- Gender -->
                     
                     <?php if($find_rs['Gender'] == 0){
                         ?>
@@ -57,7 +53,8 @@
                     
                     ?>
             <!-- / Gender -->
-                <p>
+                    <br/>
+                    
                     <!--Date of birth, recieved date, category... -->
                     <b>Date of Birth: </b> <?php echo $find_rs['Born'] ?> <br />
                     
