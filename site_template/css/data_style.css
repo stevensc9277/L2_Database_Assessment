@@ -185,8 +185,96 @@ input {
     
 }
 
+/* code for star styles */
+.star-ratings-sprite {
+  background: url("../images/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 89px;
+  /* margin: 0 auto; */
+  
+}
 
+.star-ratings-sprite-rating {
+    background: url("../images/star-rating-sprite.png") repeat-x;
+    background-position: 0%;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display: block;
+}
 
+.advanced-frame {
+    border-radius: 10px;
+    background-color: #f4ff7c;
+    border: solid 1px #4f570b;
+    padding: 5px;
+}
+
+.advanced-button {
+    margin: auto;
+    width: 95%;
+    border-radius: 5px;
+    background-color: #2F480D;
+    font-size: 105%;
+}
+
+.adv {
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+.adv-txt {
+    vertical-align: middle;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Extra add entry styling */
+.add-entry {
+    max-width: 550px;
+    margin: auto;
+}
+
+.add-field {
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+textarea,
+input[type=text] {
+    font-family: 'Lato', sans-serif;
+    font-size: 95%;
+    padding: 10px;
+}
+
+/* Form Error CSS */
+
+/* Field backgrounds */
+.form-ok {
+    background-color: #fff;
+}
+
+.form-error {
+    background-color: #ff9e9e;
+}
+
+/* error messages */
+.no-error {
+    display: none;
+}
+
+.error-text {
+    color: darkred;
+}
+
+.defaulted {
+    color: darkgreen;
+}
 
 
 
