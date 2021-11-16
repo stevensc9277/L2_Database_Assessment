@@ -51,7 +51,30 @@
                     
                     <!-- Gender -->
                     <input class="adv-txt" type="checkbox" name="gender" value="0">Female
-                
+                    
+                    <!-- Share -->
+                <div class="flex-container">
+                    <div class="adv-txt">
+                        Share:
+                    </div> <!-- / share label -->
+                    
+                    <div>
+                        <select class="search adv" name="share_more_less">
+                            <option value="" disabled>Choose...</option>
+                            <option value="at least">At Least</option>
+                            <option value="at most"> At Most</option>
+                        </select>
+                    </div> <!-- / share drop down -->
+                    
+                    <div>
+                        <input class="adv" type="text" name="share" size="2" value="" placeholder=""/>
+                        
+                    </div> <!-- / share amount -->
+                </div>
+                    
+                    <!-- Search button is below -->
+                 <input class="submit advanced-button" type="submit" name="advanced" value="Search &nbsp; &#xf002;" />
+                    
                 </form>
     </div>
         </div> <!-- / side bar -->
