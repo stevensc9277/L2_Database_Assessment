@@ -33,7 +33,17 @@
                     
                     
                 </div>     
-                
+                <!-- share area -->
+                <div class="flex-container">
+                    <!-- Partial Stars Original Source: https://codepen.io/Bluetidepro/pen/GkpEa -->
+                    <div class="star-ratings-sprite"><span style="width:<?php echo $find_rs['Share'] / 4 * 100; ?>%" class="star-ratings-sprite-rating"></span></div> <!-- /star rating div -->
+                    
+                    <div class="actual-rating">
+                    (Prize share: <?php echo $find_rs['Share']?>)
+                    </div> <!-- /text share div -->
+                      
+                    
+                </div><!-- /Ratings area -->   
                 <p>
                     <!-- Gender -->
                     
@@ -64,13 +74,13 @@
                 <p>
                     <?php if($find_rs['Motivation'] == ""){
                         ?>
-                    <i><b>Motivation: </b><?php echo 'No motivation'; ?></i>             
+                    <i><b>Prize motivation: </b><?php echo 'No motivation'; ?></i>             
                     
                     <?php
                     } // end motivation if
                     else{
                         ?>
-                    <b>Motvation:</b> <?php echo $find_rs['Motivation']; ?>
+                    <b>Prize motivation:</b> <?php echo $find_rs['Motivation']; ?>
                 <?php
                     } //end motivation else
                     ?>
